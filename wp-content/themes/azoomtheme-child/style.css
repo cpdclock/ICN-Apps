@@ -1,0 +1,162 @@
+/* Theme Name: Azoom Child Theme Theme URI: http://azoom.rockthemes.net Author: XanderRock Author URI: http://themeforest.net/user/XanderRock/portfolio Description: Azoom is a very powerful responsive, retina ready, WPML (localization) ready, WooCommerce ready theme. Azoom comes with Rock Page Builder, Curvy Slider and Rock Form Builder. Enjoy! Version: 1.0 Template: azoomtheme */
+@import url("../azoomtheme/style.css");
+/* =Azoom Child Theme Customization Starts Here You can copy/paste all of the Azoom Styles you wanted to override here. -------------------------------------------------------------- */
+ #nav .rtm-menu li a {
+     font-size:18px !important;
+}
+ .azoom-heading-icon {
+    border-radius: 7px;
+}
+ #azoom-go-to-top {
+    bottom: 25px !important;
+     right:85px !important;
+}
+ .mc4wp-form-theme-red button, .mc4wp-form-theme-red input[type="submit"] {
+    background-color: #008a71 !important;
+}
+ #wpcf7-f5574-p5796-o1 input[type="submit"] {
+     width: 760px;
+     color: white;
+     background-color: #008a71;
+}
+ #wpcf7-f5574-p5796-o1 input[type="submit"]:hover {
+    background-color: #008a71 !important;
+     color: white;
+}
+ .single-post .header-all-wrapper {
+     position: inherit !important;
+}
+ .azoom-title-breadcrumbs a:not(.escapea):not(.button):hover{
+    color:#ffffff !important;
+     text-decoration:underline !important;
+}
+ #content p a, .azoom-text-details h4 a {
+    color: #DE245F !important;
+}
+ #content p a:hover {
+    color: #BD1D51 !important;
+     text-decoration:underline !important;
+}
+ .azoom-text-details h4 a:hover {
+    color: #BD1D51 !important;
+}
+/*.boxed-layout {
+    background-color: #ffffff !important;
+}
+*/
+ h1.title-container a:not(.escapea):not(.button) {
+    color: #333;
+}
+ .azoom-pt-header .price-details .detail {
+    padding:15px 25px !important;
+}
+ .sending-result {
+    color:#606060 !important;
+     font-size:17px !important;
+}
+/*wedocs*/
+ .wedocs-single-wrap {
+    max-width: 1170px;
+     margin-left: auto;
+     margin-right: auto;
+     margin-top:30px;
+}
+ .vote-link-wrap a:not(.escapea):not(.button) {
+    color:#fff;
+}
+ .wedocs-feedback-wrap a {
+    padding: 2px 8px 2px 10px;
+}
+ .wedocs-single-wrap .wedocs-sidebar ul.doc-nav-list>li.current_page_parent>a, .wedocs-single-wrap .wedocs-sidebar ul.doc-nav-list>li.current_page_item>a, .wedocs-single-wrap .wedocs-sidebar ul.doc-nav-list>li.current_page_ancestor>a {
+    background:#CC3463;
+}
+ .documentor-cherry .doc-menufixed {
+    opacity:1 !important;
+}
+ .documentor-broad, .documentor-cherry {
+    background-color:#fff;
+     padding:30px;
+}
+ .documentor-cherry .doc-icons {
+     color:#D81B60 !important;
+}
+ .documentor-cherry .doc-menu li {
+    line-height: 1.4em !important;
+     padding: 7px 0px;
+}
+ .documentor-broad a {
+    color: #cc3463 !important;
+}
+ .documentor-cherry .documentor-social {
+    display:none !important;
+}
+ .documentor-cherry h2.doc-sec-title {
+    border-bottom:2px solid #D81B60;
+     padding-bottom:5px;
+     margin-bottom:20px !important;
+     clear:both !important;
+}
+ .documentor-cherry .doc-menu.toggle .doc-mtoggle {
+    margin-left:0px !important;
+}
+ .documentor-cherry .doc-icons {
+    margin-right:0px !important;
+}
+ .documentor-cherry .doc-menu ol.doc-list-front {
+    padding: 6px 0px 6px 0px !important;
+}
+ .documentor-cherry .doc-menu a.doc-acta {
+    color:#585858 !important;
+     padding:6px !important;
+}
+ .doc-sautocomplete .ui-state-hover, .doc-sautocomplete .ui-widget-content .ui-state-hover, .doc-sautocomplete .ui-widget-header .ui-state-hover, .doc-sautocomplete .ui-state-focus, .doc-sautocomplete .ui-widget-content .ui-state-focus, .doc-sautocomplete .ui-widget-header .ui-state-focus {
+     background: #D9D9D9 !important;
+}
+ .rockthemes-blog-basic h3 a:not(.escapea):not(.button) {
+    color: #008a71;
+}
+ h3.azoom-heading {
+    font-size: 34px !important;
+}
+/*Client logos*/
+ .azoom-single-image.tribal img {
+    width: 85px;
+}
+ .azoom-single-image.knorr img {
+    width: 110px;
+}
+ .azoom-single-image.prize img {
+    margin-top: 25px;
+}
+ .azoom-single-image.hooljo img {
+    width: 100px;
+     margin-top: 25px;
+}
+ .azoom-single-image.geo img {
+    width: 120px;
+     margin-top: 40px;
+}
+ .azoom-single-image.accysonus img {
+    width: 130px;
+     margin-top: 50px;
+}
+ @media only screen and (max-width: 768px) {
+     .documentor-cherry .doc-menu {
+        margin-bottom:70px !important;
+    }
+     .rock-testimonials-single {
+        padding:0px 20px !important;
+    }
+     .rock-testimonials-single .testimonials-content, .rock-testimonials-single .testimonials-content p {
+        font-size:20px !important;
+    }
+     .button:not(.button_non_responsive) {
+        width:inherit;
+    }
+     #cookie-notice {
+        margin-bottom:30px;
+    }
+     #cookie-notice .button.bootstrap {
+        margin: 2px !important;
+    }
+}
